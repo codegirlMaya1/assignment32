@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>webpage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <style>
+       
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            /* Style the header */
+            header {
+              background-color: #7a7575;
+              padding: 30px;
+              text-align: center;
+              font-size: 35px;
+              color: white;
+            }
+            
+            /* Container for flexboxes */
+            section {
+              display: -webkit-flex;
+              display: flex;
+            }
+            
+            /* Style the navigation menu */
+            nav {
+              -webkit-flex: 1;
+              -ms-flex: 1;
+              flex: 1;
+              background: #ccc;
+              padding: 20px;
+            }
+            
+            /* Style the list inside the menu */
+            nav ul {
+              list-style-type: none;
+              padding: 0;
+            }
+            
+            /* Style the content */
+            article {
+              -webkit-flex: 3;
+              -ms-flex: 3;
+              flex: 3;
+              background-color: #f1f1f1;
+              padding: 10px;
+            }
+            
+            /* Style the footer */
+            footer {
+              background-color: #777;
+              padding: 10px;
+              text-align: center;
+              color: white;
+              width: 100%;
+            }
+            
+            /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+            @media (max-width: 600px) {
+              section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+              }
+            }
+            .column{
+                border: 5px solid black;
+            }
+            .header{
+                float: left;
+                
+            }
+    </style>
+  </head>
+  <body>
+    <!-- Load font awesome icons -->
+    
+    <header>
+        <h2>TASK MANAGEMENT</h2>
+      </header>
+
+      <section>
+        <nav>
+          <ul>
+            <li><a href="#">Task Home Page</a></li>
+            <li><a href="#">Task Details Page</a></li>
+            <li><a href="#">Task Dashboard Admin Portal</a></li>
+          </ul>
+        </nav>
+<article>
+<!-- The navigation menu -->
+
+    <form action="/submit-task" method="post"></form>
+
+</div>
+
+<div class="row">
+<div class="column">
+    <form action="">
+        <div class="container">
+            <h2>Time Management Form</h2>
+            <form>
+                <div class="form-group">
+                    <label for="task">Task</label>
+                    <input type="text" id="task" name="task" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="start-time">Start Time</label>
+                    <input type="time" id="start-time" name="start-time" required>
+                </div>
+                <div class="form-group">
+                    <label for="end-time">End Time</label>
+                    <input type="time" id="end-time" name="end-time" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </form>
+</div>
+<div class="column">
+    <form action="">
+        <Section class="section1"></Section>
+ <div class="form-container">
+    <h2>Task Manager</h2>
+    <form action="/submit-task" method="post">
+        <div class="form-group">
+            <label for="task-title">Task Title:</label>
+            <input type="text" id="task-title" name="task-title" required>
+        </div>
+        <div class="form-group">
+            <label for="task-desc">Task Description:</label>
+            <textarea id="task-desc" name="task-desc" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="due-date">Due Date:</label>
+            <input type="date" id="due-date" name="due-date" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Add Task Due Date</button>
+        </div>
+    </form>
+</div>
+ 
+  
+</form>
+</div>
+<div class="column">
+    <body>
+        <div class="container">
+            <h2>Add Task</h2>
+            <form id="taskForm">
+                <div class="form-group">
+                    <label for="taskName">Task Name:</label>
+                    <input type="text" id="taskName" name="taskName" required>
+                </div>
+                <div class="form-group">
+                    <label for="taskDescription">Task Description:</label>
+                    <input type="text" id="taskDescription" name="taskDescription">
+                </div>
+                <section class="section1"></section>
+                <section class="section1"></section>
+                <div class="form-group">
+                    <label for="todays-date">Due Date:</label>
+                    <input type="date" id="todays-date" name="todays-date" required>
+               
+                <section class="section1"></section>
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <section class="section1"></section>
+                  <section class="section1"></section>
+               
+               
+                <div class="form-group">
+                    <button type="submit">Add Task</button>
+                </div>
+            </form>
+        </div>
+    
+        <script>
+            document.getElementById('taskForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const taskName = document.getElementById('taskName').value;
+                const taskDescription = document.getElementById('taskDescription').value;
+                console.log('Task Added:', taskName, taskDescription);
+                // Add your logic to handle the task addition here
+            });
+        </script>
+
+
+</div>
+</div>
+</article>
+</section>
+
+
+
+
+
+
+  
+
+
+<section class="footer">
+    <footer>
+        @2024 Basic Webpage
+    </footer>
+
+</section>
+
+
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+     <style>
+       
+    
+    
+    </style>   
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div> 
+    </header>
+   <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, quos architecto. Beatae a dolorum veritatis dolorem, aliquid fuga optio, officia consequuntur quasi, qui vel odio nostrum error pariatur nobis? Mollitia!</p>
+   <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, quos architecto. Beatae a dolorum veritatis dolorem, aliquid fuga optio, officia consequuntur quasi, qui vel odio nostrum error pariatur nobis? Mollitia!</p>
+   <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, quos architecto. Beatae a dolorum veritatis dolorem, aliquid fuga optio, officia consequuntur quasi, qui vel odio nostrum error pariatur nobis? Mollitia!</p>
+   <main>
+      <div class="task-form">
+          <input type="text" id="task" placeholder="Enter task...">
+          <select id="priority">
+              <option value="top">Top Priority</option>
+              <option value="middle">Middle Priority</option>
+              <option value="low">Less Priority</option>
+          </select>
+          <input type="date" id="deadline">
+          <button id="add-task">Add Task</button>
+      </div>
+      <div class="task-list" id="task-list">
+          <!-- Tasks will be added here dynamically -->
+      </div>
+      <script src="logic.js"></script>
+  </main>
+
+  <div class="card text-center " style="background-color: lightgray;" >
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as </p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="card-footer text-muted" style="background-color: lightgray; ">
+     2 days ago
+    </div>
+  </div>
+  <footer>
+    @2024 Webpage
+  </footer>
+</body>
+  
+
+</body>
+</html>
+      

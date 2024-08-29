@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Task Details</title>
+</head>
+ 
+<body>
+    <header>
+        <h1>ADD TASKS</h1>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div> 
+    </header>
+   <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, quos architecto. Beatae a dolorum veritatis dolorem, aliquid fuga optio, officia consequuntur quasi, qui vel odio nostrum error pariatur nobis? Mollitia!</p>
+   <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, quos architecto. Beatae a dolorum veritatis dolorem, aliquid fuga optio, officia consequuntur quasi, qui vel odio nostrum error pariatur nobis? Mollitia!</p>
+   <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, quos architecto. Beatae a dolorum veritatis dolorem, aliquid fuga optio, officia consequuntur quasi, qui vel odio nostrum error pariatur nobis? Mollitia!</p>
+   <main>
+    </header>
+    <main>
+        <h2> ADD TASKS</h2>
+        <div class="task-form">
+            <input type="text" id="task" placeholder="Enter task...">
+            <select id="priority">
+                <option value="top">Top Priority</option>
+                <option value="middle">Middle Priority</option>
+                <option value="low">Less Priority</option>
+            </select>
+            <input type="date" id="deadline">
+            <button id="add-task">Add Task</button>
+        </div>
+        <div class="task-list" id="task-list">
+            <h2>TASKS DETAILS SECTION</h2>
+            <!-- Tasks will be added here dynamically -->
+        </div>
+        <script src="logic.js"></script>
+    </main>
+
+    <div class="card text-center " style="background-color: lightgray;" >
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-muted" style="background-color: lightgray; ">
+         2 days ago
+        </div>
+      </div>
+</body>
+  <footer>
+    @2024 Webpage
+  </footer>
+</html>
